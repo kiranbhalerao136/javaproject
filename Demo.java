@@ -1,16 +1,9 @@
-package sample.java.project;
-
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNull;
-import org.junit.Before;
-import org.junit.Test;
-
-/**
- * Sample JUnit tests.
- */
-public class Demo {
-
-		System.out.println("Hello world");
-    
-    }
-}
+class Demo
+{ 
+    // Your program begins with a call to main(). 
+    // Prints "Hello, World" to the terminal window. 
+    public static void main(String args[]) 
+    { 
+        System.out.println("Hello, World"); 
+    } 
+} 
